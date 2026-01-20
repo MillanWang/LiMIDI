@@ -1,29 +1,29 @@
 @import "tailwindcss";
 
 @keyframes gradient-shift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 body {
-  background: linear-gradient(-45deg, #222f3e, #2a3d4f, #253040, #334a5f, #1a252f, #2e3745, #222f3e);
-  background-size: 400% 400%;
-  animation: gradient-shift 15s ease infinite;
-  min-height: 100vh;
+    background: linear-gradient(-45deg, #232323, #2d2d2d, #1a1a1a, #3a3a3a, #0f0f0f, #4a4a4a, #232323);
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+    min-height: 100vh;
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #232323, #3a3a3a, #2d2d2d, #4a4a4a, #1a1a1a, #232323);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradient-shift 8s ease infinite;
+    background: linear-gradient(-45deg, #232323, #2d2d2d, #1a1a1a, #3a3a3a, #0f0f0f, #4a4a4a, #232323);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 8s ease infinite;
 }
