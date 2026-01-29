@@ -7,7 +7,7 @@ function App() {
         <div className="text-center mb-8">
           <h1 className="text-6xl font-bold mb-4 text-white drop-shadow-lg">LiMIDI</h1>
           <p className="text-xl text-gray-300 mt-4">
-            Connect your mobile device to your DAW wirelessly
+            Use your mobile device as a MIDI controller for your DAW
           </p>
         </div>
 
